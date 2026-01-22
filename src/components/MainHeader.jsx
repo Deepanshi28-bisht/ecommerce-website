@@ -7,6 +7,9 @@ const MainHeader = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
+    console.log('====================================');
+    console.log("kkkkkkkkkkk");
+    console.log('====================================');
     getData();
   }, []);
 
